@@ -27,5 +27,8 @@ public class User {
 	public void setPassword(String password) {
 		this.password = password;
 	}
+	public void sing(){
+		System.out.println("大户");
+	}
 	
 }
