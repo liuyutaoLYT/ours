@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
@@ -74,7 +76,7 @@
 			<li class="colour-1"><a href="index.html">主页</a></li>
 			<li class="colour-2"><a href="menu.html">菜谱</a></li>
 			<li class="colour-3"><a href="location.html">食材</a></li>
-			<li class="colour-4"><a href="archive.html">菜的做法</a></li>
+			<li class="colour-4"><a href="archive.html">珍选</a></li>
 			<li class="colour-5"><a href="reservation.html">专题</a></li>
 			<li class="colour-6"><a href="staff.html">社区</a></li>
 			<li class="colour-7"><a href="news.html">话题</a></li>
@@ -100,7 +102,7 @@
 						<div class="info">jichkhun，22小时前<a href="#">Event</a></div>
 					</div>
 					<div class="art-content">
-						<img src="images/6.png" />
+						<img src="images/6.jpg" />
 						<p>以小麦为原料制成的供制作饺子用的面粉称为饺子专用粉。包出的饺子皮比较筋道，耐煮，不易破皮。今天为大家推荐15款畅销的饺子粉吧。</p>
 					</div>
 					<a class="button button02" href="#">MORE</a>
@@ -148,7 +150,7 @@
 					</div>
 					<div class="wid-content">
 						<div class="post">
-							<a href="#"><img src="images/15.jpg"/></a>
+							<a href="#"><img src="images/16.jpg"/></a>
 							<div class="wrapper">
 							  <h5><a href="#">Lorem ipsum dolor</a></h5>
 							   <span>$25 - $26</span>
@@ -192,12 +194,12 @@
 						<h5>Gallery</h5>
 					</div>
 					<div class="wid-content">
-						<a href="#"><img src="images/11.jpg"></a>
-						<a href="#"><img src="images/10.jpg"></a>
-						<a href="#"><img src="images/9.jpg"></a>
-						<a href="#"><img src="images/8.jpg"></a>
-						<a href="#"><img src="images/7.jpg"></a>
-						<a href="#"><img src="images/6.jpg"></a>
+						<a href="#"><img src="images/111.jpg"></a>
+						<a href="#"><img src="images/111.jpg"></a>
+						<a href="#"><img src="images/111.jpg"></a>
+						<a href="#"><img src="images/111.jpg"></a>
+						<a href="#"><img src="images/111.jpg"></a>
+						<a href="#"><img src="images/111.jpg"></a>
 					</div>
 				</div>
 			</div>
