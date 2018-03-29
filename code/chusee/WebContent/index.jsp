@@ -59,7 +59,7 @@
 					</div>
 				</li>
 				<li>
-					<img src="images/JDZ.jpg" alt="">
+					<img src="images/JZD.jpg" alt="">
 					<div class="caption">
 						<h2>鸡蛋仔？华夫饼？—给华夫饼锅子再找个用途</h2></br>
 						<p>刚刚出炉鸡蛋仔最是香气四溢，金黄的色泽让人一看就知道香脆无比，浓浓的蛋香更是让人闻之心醉。咬上一口这酥脆的外壳，你会惊喜的发现里面竟然另有玄机.</p>
