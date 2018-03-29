@@ -52,26 +52,47 @@
 		<div class="callbacks_container">
 			<ul class="rslides" id="slider4">
 				<li>
-					<img src="images/banner1.jpg" alt="">
+					<img src="images/SMZ.jpg" alt="">
 					<div class="caption">
-						<h2>We've got the best spareribs in town.</h2></br>
-						<p>Nulla eget mauris quis elit mollis ornare vitae ut odio. Cras tincidunt, augue vitae sollicitudin commodo,quam elit varius est, et ornare ante massa quis tellus. Mauris nec lacinia nisl. </p>
+						<h2>早餐·百变三明治</h2></br>
+						<p>用三明治当早餐即营养又健康，不管你是用来当早餐，还是去郊外郊游，带起来都很方便，做法更是简单. </p>
 					</div>
 				</li>
 				<li>
-					<img src="images/banner2.jpg" alt="">
+					<img src="images/JDZ.jpg" alt="">
 					<div class="caption">
-						<h2>If food is an experience, then you'll find it at the restaurant.</h2></br>
-						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+						<h2>鸡蛋仔？华夫饼？—给华夫饼锅子再找个用途</h2></br>
+						<p>刚刚出炉鸡蛋仔最是香气四溢，金黄的色泽让人一看就知道香脆无比，浓浓的蛋香更是让人闻之心醉。咬上一口这酥脆的外壳，你会惊喜的发现里面竟然另有玄机.</p>
 					</div>
 				</li>
 				<li>
-					<img src="images/banner3.jpg" alt="">
+					<img src="images/LB.jpg" alt="">
 					<div class="caption">
-						<h2>Enjoy our take-away menu.</h2></br>
-						<p>At vero eos et accusam et justo duo dolores et ea rebum. Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+						<h2>爱上素食·健康的苏帮菜.</h2></br>
+						<p>今天一大早起来，
+						没菜伴粥吃，
+						看到昨天买的一根胖萝卜，
+						立即决定，凉拌它!</p>
 					</div>
 				</li>
+				<li>
+					<img src="images/Z.jpg" alt="">
+					<div class="caption">
+						<h2>滋补养生粥，丰富你的中式早餐</h2></br>
+						<p>一粥一饭当思来之不易，一饮一啄饱蘸苦辣酸甜.</p>
+					</div>
+				</li>
+								<li>
+					<img src="images/LP.jpg" alt="">
+					<div class="caption">
+						<h2>一碗裤袋宽的凉皮让你轻松过苦夏</h2></br>
+						<p>炎热的夏天没胃口？来份凉皮吧~鲜嫩、滑爽的面皮拌上香喷喷的辣椒油和调料汁.</p>
+					</div>
+				</li>
+				
+				
+				
+				
 			</ul>
 		</div>
 	</div>
