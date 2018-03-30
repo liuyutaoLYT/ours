@@ -39,63 +39,67 @@
 		<script src="js/css3-mediaqueries.js"></script>
 	<![endif]-->
 
+
+<!-- [ Optional ] -->
+
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+<!-- [ REQUIRED ] -->
+<link rel="stylesheet" href="css/bpHS.min.css">
+<style>
+ .bp-hs img {
+    max-width: 90%;
+    margin-left: 160px;
+    margin-top: 30px;
+}
+.bp-hs .bp-hs_control .bp-btn.bp-hs_control__prev {
+    left: 200px;
+}
+.bp-hs .bp-hs_control .bp-btn.bp-hs_control__next {
+    right: 200px;
+}
+
+
+
+
+</style>
+
 </head>
 <body>
+
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.touchSwipe.min.js"></script> <!-- optional (required for touchSwipe option) -->
+<script src="js/bpHS.min.js"></script>
+<script src="js/custom.js"></script>
 <div class="wrap-body">
 	
 	
 		
 	<%@ include file="menu.jsp" %>
-
 	
-	<div class="zerogrid">
-		<div class="callbacks_container">
-			<ul class="rslides" id="slider4">
-				<li>
-					<img src="images/SMZ.jpg" alt="">
-					<div class="caption">
-						<h2>早餐·百变三明治</h2></br>
-						<p>用三明治当早餐即营养又健康，不管你是用来当早餐，还是去郊外郊游，带起来都很方便，做法更是简单. </p>
-					</div>
-				</li>
-				<li>
-					<img src="images/JZD.jpg" alt="">
-					<div class="caption">
-						<h2>鸡蛋仔？华夫饼？—给华夫饼锅子再找个用途</h2></br>
-						<p>刚刚出炉鸡蛋仔最是香气四溢，金黄的色泽让人一看就知道香脆无比，浓浓的蛋香更是让人闻之心醉。咬上一口这酥脆的外壳，你会惊喜的发现里面竟然另有玄机.</p>
-					</div>
-				</li>
-				<li>
-					<img src="images/LB.jpg" alt="">
-					<div class="caption">
-						<h2>爱上素食·健康的苏帮菜.</h2></br>
-						<p>今天一大早起来，
-						没菜伴粥吃，
-						看到昨天买的一根胖萝卜，
-						立即决定，凉拌它!</p>
-					</div>
-				</li>
-				<li>
-					<img src="images/Z.jpg" alt="">
-					<div class="caption">
-						<h2>滋补养生粥，丰富你的中式早餐</h2></br>
-						<p>一粥一饭当思来之不易，一饮一啄饱蘸苦辣酸甜.</p>
-					</div>
-				</li>
-								<li>
-					<img src="images/LP.jpg" alt="">
-					<div class="caption">
-						<h2>一碗裤袋宽的凉皮让你轻松过苦夏</h2></br>
-						<p>炎热的夏天没胃口？来份凉皮吧~鲜嫩、滑爽的面皮拌上香喷喷的辣椒油和调料汁.</p>
-					</div>
-				</li>
-				
-				
-				
-				
-			</ul>
+<div class="container">
+	<div class="bp-hs" id="demo-default">
+		<div class="bp-hs_inner">
+			<div class="bp-hs_inner__item" data-transform="scale">
+				<img src="images/SMZ.jpg" alt="Boompx Hero Slider 01"/>
+			</div>
+			<div class="bp-hs_inner__item" data-transform="rotate" data-origin="top-left">
+				<img src="images/JZD.jpg" alt="Boompx Hero Slider 02"/>
+			</div>
+			<div class="bp-hs_inner__item" data-transform="rotate"  data-origin="bottom-left">
+				<img src="images/LB.jpg" alt="Boompx Hero Slider 03"/>
+			</div>
+			<div class="bp-hs_inner__item">
+				<img src="images/Z.jpg" alt="Boompx Hero Slider 04"/>
+			</div>
 		</div>
 	</div>
+</div>
+
 	
 <!--////////////////////////////////////Container-->
 <section id="container" class="index-page">

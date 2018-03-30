@@ -43,7 +43,61 @@ a{
     -o-transition: 0.3s;
 	transition-duration: 0.3s;
 }
-
+/*s
+.pin_list{
+	clear:both;
+	margin:10px 0 0 0;
+	padding:0;
+}
+.clear{
+	zoom:1;
+	
+}
+ul{
+	list-style:none;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+.pin_list li{
+	float:left;
+	overflow:hidden;
+	padding:10px 0;
+}
+.pin_list div.u{
+	height:40px;
+}
+.pin_list div.c{
+	display:block;
+	padding:5px 0 0 50px;
+}
+.pin_list div.c a.clear{
+	position:relative;
+	float:left:
+	padding:10px 0 0;
+}
+a{
+	color:#333;
+	text-decoration:none;
+}*/
+.pin_list div.c div.num{
+	float:left;
+	clear:both;
+	padding:10px 0 0;
+	color:#666;
+	font-size:12px;
+	line-height:100px;
+	height:15px;
+}
+.clear:after{
+	clear:both;
+	content:' ';
+	display:block;
+	height:0;
+	overflow:hidden;
+	visbility:hidden;
+}
 
 h1, h2 	{font-size: 25px;line-height: 25px;}
 h3, h4	{font-size: 20px;line-height: 20px;}

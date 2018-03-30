@@ -1,2 +1,6 @@
 eclipse.preferences.version=1
+<<<<<<< HEAD
 encoding//WebContent/staff.jsp=UTF-8
+=======
+encoding//WebContent/health.jsp=UTF-8
+>>>>>>> branch 'master' of https://github.com/liuyutaoLYT/ours.git
