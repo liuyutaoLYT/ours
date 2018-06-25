@@ -1,69 +1,156 @@
-<%@ page import="java.sql.*" language="java" contentType="text/html; charset=utf-8"
-    pageEncoding="utf-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
+<!DOCTYPE html>
+
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>推荐登录界面</title>
+  <head>
+    <title>Home</title>
+
+  
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/main.css" />
+    
+<style>
+   h3 {
+      font-size: 25px;
+      text-align: center;
+      color: #333;
+     margin-bottom: 22px;
+     margin-top:20px;
+  }
+   .form-control{
+    width:550px;
 
 
-<style type="text/css">
-#login {
-	position: absolute;
-	top: 40%;
-	left: 50%;
-	margin: -150px 0 0 -150px;
-	width: 300px;
-	height: 300px;
+  }
+h3.heading-style-3 {
+
+    color: #FFBF00;
+    font-weight: bold;
 }
+  .organic-form-2 label{
+   font-size:25px;
+    font-family: "Playfair Display", serif;
+   margin-top:30px;
 
-input {
-	width: 278px;
-	height: 18px;
-	margin-bottom: 10px;
-	outline: none;
-	padding: 10px;
-	font-size: 13px;
-	border-top: 1px solid #312E3D;
-	border-left: 1px solid #312E3D;
-	border-right: 1px solid #312E3D;
-	border-bottom: 1px solid #56536A;
-	border-radius: 4px;
 }
+  .pull-right {
+  
+    margin-right: 225px;
+}
+  .pull-left {
 
-.but {
-	width: 300px;
-	min-height: 20px;
-	border: 1px solid;
-	padding: 9px 14px;
-	font-size: 15px;
-	line-height: normal;
-	border-radius: 5px;
-	margin: 0;
+    margin-left: 225px;
 }
-</style>
+.login-wrapper{
+   margin:0 auto;
+}
+.img0{
+  margin-right:50px;
+}
+  </style>
 
 </head>
+  <body >
+   <%@ include file="menu2.jsp" %>
 
-
-<body>   
-	<center>
-	    <div id="login">   
-	        <h1>登录</h1>   
-	        <form action="user" method="get" ccept-charset="utf-8">   
+<!-- 
+      <section class="sub-header shop-layout-1">
+        <img class="rellax bg-overlay" src="${pageContext.request.contextPath}/images/logo2.jpg" alt="">
+        <div class="overlay-call-to-action"></div>
+        <h3 class="heading-style-3">厨色</h3>
+         
+      </section>
+   -->
+   
+   <div>
+        <section class="sub-header shop-layout-1">
+        <img class="rellax bg-overlay" src="images/logo4.jpg" alt="">
+        <div class="overlay-call-to-action"></div>
+        <h3><img  class="img0" src="images/lo.png"></h3>
+       
+      </section>
+      
+      <section class="boxed-sm">
+        <div class="container">
+         
+          <div class="login-wrapper">
+            <div class="row">
+              <center><h3 class="heading-style-3" color:"red">我的账户</h3>
+              </center>
+              <div><s:actionerror /></div>
+              <center><form action="user" method="get" ccept-charset="utf-8">   
 	        	<input type="hidden" name="actionName" value="login"/>
 	        	<input type="hidden" name="type" value="2"/>
-	            <input type="text" required="required" placeholder="用户名" name="userName"></input>   
-	            <input type="password" required="required" placeholder="密码" name="password"></input>               
-	            <button class="but" type="submit">登录</button>   
-	        </form>   
-	        <form action="register.jsp" method="post">
-	        	<button class="but" type="submit">注册</button>  
-	        </form> 
-	    </div>   
-    </center>
+	        	<div class="form-group organic-form-2">
+	        	   <center><label>用户名</label></center>
+	              <center><input type="text" required="required" name="userName" class="form-control" maxlength="20">
+	              </center>
+	               </input>  
+	            </div> 
+	            <div class="form-group organic-form-2">
+	             <center><label>密码</label></center>
+	              <center><input type="password" required="required" name="password" class="form-control" maxlength="20"></input>               
+	              </center>
+	            </div>    
+	             <div class="form-group footer-form">
+	              <center>
+	                 <button class="btn btn-brand pill"  type="submit">登录</button>  
+	              </center>
+	             </div>
+	           
+	        </form></center>   
+	        
+              
+            </div>
+          </div>
+        </div>
+      </section>
+   
+   
+   
+   
+   
+   
+   
+   </div>
     
-    	<h5 style="position:fixed;bottom:0;left:50%"><a href="login_admin.jsp">管理员登录</a></h5>
-</body>
+      <%@ include file="footer.jsp" %>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/function-check-viewport.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/select2.full.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.mmenu.all.min.js"></script>
+    <script src="js/rellax.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/bootstrap-notify.min.js"></script>
+    <script src="js/bootstrap-slider.js"></script>
+    <script src="js/in-view.min.js"></script>
+    <script src="js/countup.js"></script>
+    <script src="js/animsition.min.js"></script>
+    <script src="js/global.js"></script>
+    <script src="js/config-mm-menu.js"></script>
+    <script src="js/config-set-bg-blog-thumb.js"></script>
+    <script src="js/config-accrodion.js">
+    
 
+    </script>
+    <script type="text/javascript">
+  $(function(){
+	  //点击更换验证码
+	   $("#captchaImage").click(function(){		   
+	   		$("#captchaImage").attr("src","${pageContext.request.contextPath}/getCheckCodeImage?date="+new Date().getTime());		   
+	   });
+   });
+  $(function(){
+	  $("#username").focus(function(){
+		  $("#username").val("");
+	  });
+  })
+</script>
+
+  </body>
 </html>

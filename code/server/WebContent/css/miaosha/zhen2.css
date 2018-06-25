@@ -1,0 +1,1068 @@
+
+.w{overflow:hidden}
+
+.ui_title{height:35px;border-bottom:1px solid #eeeeee;position:relative}
+.ui_title_wrap{line-height:30px;font-size:20px}
+
+.ui_title_wrap h1,.ui_title_wrap h2,.ui_title_wrap h3{float:left;font-weight:400;display:inline-block;font-size:20px;margin-right:20px;color:#666;padding-bottom:4px;outline:0;color:#333;max-width:100%;overflow:hidden;text-decoration:none;text-overflow:ellipsis;white-space:nowrap}
+.ui_title_wrap h1 a,.ui_title_wrap h2 a,.ui_title_wrap h3 a{color:#666}
+.ui_title_wrap h1.on,.ui_title_wrap h2.on,.ui_title_wrap h3.on{color:#ff6767;border-bottom:3px solid #ff6767}
+.ui_title_wrap h1.on a,.ui_title_wrap h2.on a,.ui_title_wrap h3.on a{color:#ff6767}
+.ui_title_wrap a.on{color:#ff6767}
+.ui_title_wrap a{text-decoration:none}
+.ui_title_wrap .right{float:right;margin:0 0 0 20px;font-size:16px}
+
+.space_left {
+	width: 640px;
+	float: left;
+	overflow: hidden
+}
+
+.space_right {
+	width: 300px;
+	float: right;
+	overflow: hidden
+}
+
+.ui_no_data {
+	font-size: 20px;
+	padding: 100px 0 0 0;
+	text-align:center;
+	color: #999
+}
+
+.ui_no_data a,.ui_no_data a:hover {
+	color: #6599ff;
+	padding: 05px
+}
+
+.ui-loading {
+	height: 32px;
+	line-height: 32px;
+	overflow: hidden
+}
+
+.ui-loading a {
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	color: #333;
+	background-color:#f8f8f8;
+	outline: 0;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: pointer
+}
+
+.ui-loading a.on {
+	cursor: default;
+	background: url('//static.meishichina.com/v6/img/loading-16-16.gif') no-repeat center center #f9f9f9;
+	text-indent: -9999em
+}
+
+.zhen_tag {
+	padding: 0 10px;
+	width: 968px;
+	border-bottom: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd
+}
+
+.zhen_tag a {
+	float: left;
+	color: #666;
+	padding: 10px;
+	font-size: 14px
+}
+
+.zhen_tag a:hover,.zhen_tag a.on {
+	color: #ba2020
+}
+
+.zhen_list li {
+	padding: 20px 0 0;
+	clear: both
+}
+
+.zhen_list li h2 {
+	font-size: 20px;
+	line-height: 1.2em
+}
+
+.zhen_list li h2 em {
+	color: #ba2020;
+	font-style: normal
+}
+
+.zhen_list .pic {
+	float: left;
+	height: 180px;
+	width: 180px;
+	padding: 20px 0 0
+}
+
+.zhen_list .detail {
+	color: #666;
+	padding: 16px 0 0 200px
+}
+
+.zhen_list .detail p {
+	font-size: 14px
+}
+
+.zhen_list .substatus {
+	line-height: 40px;
+	padding: 20px 0 0
+}
+
+.zhen_list .substatus .left,.zhen_list .substatus .left a {
+	color: #999
+}
+
+.zhen_list .substatus a.right {
+	font-size: 20px;
+	height: 40px;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 4px;
+	padding: 0 15px
+}
+
+.zhen_r_label {
+	width: 320px
+}
+
+.zhen_r_label li {
+	text-align: center;
+	font-size: 16px;
+	border: 1px solid #ddd;
+	float: left;
+	margin: 20px 20px 0 0;
+	width: 138px;
+	text-Ligna;center;padding: 10px 0
+}
+
+.zhen_r_label li a {
+	display: block
+}
+
+.zhen_r_label li img {
+	margin: auto
+}
+
+.zhen_rline {
+	font-size: 14px
+}
+
+.zhen_rline p {
+	line-height: 30px
+}
+
+.zhen_info_h {
+	background: #f7f7f7;
+	height: 300px;
+	margin:20px auto 0;
+	width:990px;
+	position:relative;
+}
+
+.zhen_info_h .pic {
+	float: left;
+	padding: 10px;
+	width:280px;
+	height:280px;
+	position: relative;
+
+}
+
+#sliderh {
+	width: auto;
+	width:280px;
+	height:280px;
+	display:block;
+	overflow: hidden
+}
+
+#sliderh ul {
+display:block;position:relative;margin:0;padding:0
+
+}
+
+#sliderh li {
+	width:280px;
+	height:280px;
+display:block;overflow:hidden;position:relative;;float:left;padding:0
+}
+
+#sliderh li img{
+	width:280px;
+	height:280px;
+	display:block;
+
+	}
+
+.zhen_info_h .pic .nextBtn, .zhen_info_h .pic .prevBtn{width:40px;height:50px;position:absolute;background-color:#000;opacity:.3;filter:alpha(opacity=30);overflow:hidden;text-indent:-9999em;top:125px;left:10px;cursor:pointer}
+.zhen_info_h .pic .nextBtn:hover, .zhen_info_h .pic .prevBtn:hover{text-decoration:none;opacity:.7;filter:alpha(opacity=70);-webkit-transition:opacity .3s;transition:opacity .3s}
+.zhen_info_h .pic .nextBtn i, .zhen_info_h .pic .prevBtn i{display:block;background:url(//static.meishichina.com/v6/img/lookImg/arrow.png) no-repeat;width:18px;height:35px;margin:7px 0 0 11px}
+.zhen_info_h .pic .nextBtn{left:auto;right:10px}
+.zhen_info_h .pic .nextBtn i{background-position:-18px 0}
+
+
+.zhen_info_h .pic .controls {
+    position: absolute;
+	width:100%;
+z-index:1;
+left:0;
+bottom:10px;
+text-align:center;
+}
+.zhen_info_h .pic .controls li {
+    background: #e8e8e8 none repeat scroll 0 0;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    height: 8px;
+    margin: 0 4px;
+    overflow: hidden;
+    text-indent: 9000px;
+    width: 8px;
+}
+.zhen_info_h .pic .controls li.current {
+    background: #ba2020 none repeat scroll 0 0;
+}
+
+.zhen_info_h .detail {
+	padding: 20px 5px 0 320px
+}
+
+.zhen_info_h .detail_in {
+	height: 210px;
+	overflow: hidden
+}
+
+.zhen_info_h .detail h1 {
+	font-size: 20px;
+	line-height: 1.2em
+}
+
+.zhen_info_h .detail h2 em {
+	color: #ba2020;
+	font-style: normal
+}
+
+.zhen_info_h .detail p.subcontent {
+	font-size: 14px;
+	padding: 20px 0 0 0;
+	height: 70px;
+	overflow: hidden
+}
+
+.zhen_info_h .substatus {
+	padding: 20px 0 0
+}
+
+.zhen_info_h .substatus,.zhen_info_h .substatus a {
+	color: #999
+}
+
+.zhen_info_h .substatus2 .left{
+width:300px;
+}
+
+.zhen_info_h .substatus2 .left a{
+	color: #666;
+	font-size:14px;
+}
+.zhen_info_h .substatus2 .left span{
+color: #ff6767;
+	font-size:14px;
+}
+
+.zhen_info_h .substatus2 a.right {
+	border: 1px solid #ff6767;
+    border-radius: 17px;
+     background: #ff6767;
+    color: #ffffff;
+    font-size: 16px;
+    height: 32px;
+	line-height:32px;
+    padding: 0 40px;
+	float:left;
+	margin:5px 0 0;
+	text-decoration: none;
+}
+ 
+
+.zhen_info_h .shiy {
+	float: right;
+	padding: 0 5px;
+	text-align: center;
+	width: 200px
+}
+
+.zhen_info_h .shiy1 {
+	color: #999;
+	width: 150px;
+	margin: auto;
+	padding: 0px 0 12px 0;
+	border-bottom: 1px dashed #e4e4e4
+}
+
+.zhen_info_h .shiy1 strong {
+	color: #666;
+	font-size: 40px;
+	line-height:40px;
+}
+
+.zhen_info_h .shiy2 {
+	font-size: 14px;
+	color: #999;
+	padding: 12px 0 10px 0
+}
+
+.zhen_info_h .shiy2 p {
+	padding: 5px 0 0
+}
+
+.zhen_info_h .shiy2 b {
+	background: #bcbcbc;
+	color: #fff;
+	padding: 0 4px;
+	border-radius: 4px
+}
+
+.zhen_info_h .shiy a.try {
+	text-decoration: none;
+	border-radius: 21px;
+	color: #ff6767;
+	border:1px solid #ff6767;
+	font-size: 20px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	width: 130px;
+	display: block;
+	margin:auto
+}
+.zhen_info_h .shiy a.try:hover {
+background:#ff6767;
+color:#fff
+}
+
+.zhen_info_h .shiy a.try span {
+	font-family: '宋体',serif;
+	font-weight: 700
+}
+
+.zhen_info_h .shiy a {
+	font-size: 14px
+}
+
+.zhen_info_h .zhen_da{
+width:300px;
+margin:10px 0 0;
+}
+
+.zhen_info_h a.next, .zhen_info_h a.prev{
+width:40px;height:50px;position:fixed;background-color:#000;opacity:.3;filter:alpha(opacity=30);overflow:hidden;top:45%;left:10px;
+}
+
+.zhen_info_h a.next:hover, .zhen_info_h a.prev:hover{text-decoration:none;opacity:.7;filter:alpha(opacity=70);-webkit-transition:opacity .3s;transition:opacity .3s}
+
+.zhen_info_h a.next {
+    left: auto;
+    right: 10px;
+}
+.zhen_info_h a.next i, .zhen_info_h a.prev i {
+    background: rgba(0, 0, 0, 0) url("//static.meishichina.com/v6/img/lookImg/arrow.png") no-repeat scroll 0 0;
+    display: block;
+    height: 35px;
+    margin: 7px 0 0 11px;
+    width: 18px;
+}
+.zhen_info_h a.next i {
+    background-position: -18px 0;
+}
+
+#zhen_info {
+	margin: 10px 0 0;
+	height: 41px
+}
+
+ 
+
+#zhen_title_wrap {
+	background: #fff;
+	padding: 0 0 5px;
+	width: 640px
+}
+
+.zhen_info {
+	padding: 15px 0 0;
+	color: #666;
+	font-size: 14px
+}
+
+#zhen_tiyan,#zhen_recipe {
+	height: 60px;
+	margin: -60px 0 0
+}
+
+.ty_list li {
+	width: 100%;
+	float: left;
+	padding: 0 0 40px
+}
+
+.ty_list .pic {
+	float: right
+}
+
+.ty_list .detail {
+	float: left;
+	width: 460px;
+	overflow: hidden
+}
+
+.ty_list .detail .u {
+	float: left
+}
+
+.ty_list .detail .u a {
+	float: Left;
+	width: 48px;
+	height: 48px
+}
+
+.ty_list .detail img {
+	background-image: url(//static.meishichina.com/v6/img/loading-16-16.gif);
+	border-radius: 50%;
+	display: block
+}
+
+.ty_list .detail div.zy {
+	background: #65b2ff;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 14px;
+	height: 48px;
+	line-height: 48px;
+	text-indent: 2px;
+	width: 48px;
+	margin-left: 38px
+}
+
+.ty_list .substatus {
+	float: left;
+	margin: 0 0 0 10px;
+	width: 360px;
+	color: #999
+}
+
+.ty_list .substatus>a {
+	color: #999
+}
+
+.ty_list .substatus h4 {
+	font-size: 20px;
+	line-height: 1.2em
+}
+
+.ty_list .subcontent {
+	clear: both;
+	font-size: 14px;
+	color: #666;
+	padding: 15px 0 0
+}
+
+.ty_list .suba {
+	color: #999;
+	padding: 5px 0 0
+}
+
+.ty_list .suba a {
+	color: #999
+}
+
+.Lp3 {
+	width: 685px
+}
+
+.Lp3 li {
+	float: left;
+	margin: 0 25px 25px 0;
+	width: 200px;
+	font-size: 14px
+}
+
+.Lp3 li div {
+	position: relative
+}
+
+.Lp3 li div a {
+	display: block;
+	outline: 0;
+	text-align: center;
+	text-decoration: none
+}
+
+.Lp3 li div span {
+	display: block;
+	overflow: hidden;
+	padding: 18px 0 0 0;
+	width: 100%;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	line-height: 1.2em
+}
+
+.Lp3 li div i {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	width: 198px;
+	height: 105%;
+	border: 1px solid #e3a5a6
+}
+
+.Lp3 li div a:hover i {
+	display: block;
+	_display: none
+}
+
+.Lp3 p {
+	overflow: hidden;
+	width: 98px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	float: left;
+	line-height: 1.2em;
+	margin: 0 2px 10px 0;
+	color: #ccc
+}
+
+.Lp3 p a {
+	color: #555
+}
+
+.Lp3 p a:hover {
+	color: #ba2020
+}
+
+.Lp3 a.u {
+	display: block;
+	position: absolute;
+	border: 1px solid #eeeeee;
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	top: 185px;
+	left: 85px;
+	background: url(//static.meishichina.com/v6/img/loading-16-16.gif) no-repeat center center #f2f2f2
+}
+
+.Lp3 a.u1 {
+	top: 135px
+}
+
+.Lp3 a.u img.imgLoad {
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	background: 0
+}
+
+.zhen_r_list li {
+	padding: 15px 0 0;
+	clear: both
+}
+
+.zhen_r_list li .pic {
+	float: left
+}
+
+.zhen_r_list li p {
+	padding: 0 0 0 70px;
+}
+
+.zhen_r_list li p a {
+font-size: 14px;
+line-height:1.2em;
+}
+.zhen_r_list li p span {
+color:#999;
+}
+
+.zhen_r_list li img.imgLoad {
+    background: #f2f2f2 url("//static.meishichina.com/v6/img/loading-16-16.gif") no-repeat scroll center center;
+    display: block;
+    height: 60px;
+    width: 60px;
+}
+
+.w_links {
+	margin: 50px auto 0;
+	padding: 10px 0 40px;
+	width: 990px;
+	text-align: center
+}
+
+.w_links>div {
+	height: 5px;
+	border-bottom: 1px solid #ddd;
+	margin: 0 0 -17px
+}
+
+.w_links h3 {
+	font-size: 18px;
+	color: #333;
+	display: inline-block;
+	padding: 0 10px 10px;
+	background: #fff
+}
+
+.w_links li {
+	float: left;
+	padding: 0 12px 0 0
+}
+
+#bdshare {
+	background: url("//static.meishichina.com/v6/img/newrecipe/log_14.png") no-repeat scroll -100px -113px;
+	float: left;
+	padding: 0 0 0 25px;
+	width: 430px
+}
+
+#bdshare a {
+	height: 20px;
+	padding-left: 20px;
+	float: left;
+	line-height: 20px;
+	margin: 6px 6px 6px 0
+}
+
+#bds_tsina {
+	background: url("//static.meishichina.com/v6/img/newrecipe/log_14.png") no-repeat scroll -56px -119px
+}
+
+#bds_qzone {
+	background: url("//static.meishichina.com/v6/img/newrecipe/log_14.png") no-repeat scroll -58px -143px
+}
+
+#bds_tqq {
+	background: url("//static.meishichina.com/v6/img/newrecipe/log_14.png") no-repeat scroll -58px -167px
+}
+
+#baoming {
+	padding: 20px 30px 0
+}
+
+#baoming div.line {
+	padding: 5px 0;
+	clear: both;
+	line-height: 32px;
+	min-height: 32px
+}
+
+#baoming div.line label {
+	float: left;
+	height: 32px;
+	line-height: 32px;
+	text-align: right;
+	width: 95px
+}
+
+#baoming div.line b {
+	color: red;
+	padding: 0 5px 0 0
+}
+
+#baoming div.line span {
+	color: #5b5b5b;
+	font-size: 12px
+}
+
+#baoming div.line span.gay {
+	color: #ccc
+}
+
+#baoming div.line a {
+	color: #6599ff;
+	font-size: 12px
+}
+
+#baoming select {
+	display: none;
+	font-size: 14px
+}
+
+#baoming input.info-text {
+	width: 150px;
+	border: 1px solid #d2d2d2;
+	padding: 5px 8px;
+	height: 20px
+}
+
+#baoming input.address-info-text {
+	width: 470px;
+	border: 1px solid #d2d2d2;
+	padding: 5px 8px;
+	height: 20px
+}
+
+#baoming div.coryright {
+	font-size: 12px
+}
+
+#baoming div.coryright label {
+	width: 140px
+}
+
+#J_coryright {
+	vertical-align: middle
+}
+
+#baoming textarea {
+	border: 1px solid #d2d2d2;
+	height: 50px;
+	line-height: 130%;
+	padding: 5px;
+	vertical-align: top;
+	width: 348px;
+	padding: 5px 10px
+}
+
+.shiyong_rule {
+	font-size: 14px
+}
+
+.shiyong_rule p {
+	padding: 5px 0
+}
+
+.shiyong_winlist li {
+	float: left;
+	margin: 10px 0;
+	overflow: hidden;
+	text-align: center;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 91px
+}
+
+.shiyong_winlist li img {
+	background: #f2f2f2 url("//static.meishichina.com/v6/img/loading-16-16.gif") no-repeat scroll center center;
+	display: block;
+	height: 48px;
+	margin: 1px auto;
+	width: 48px;
+	border-radius: 50%
+}
+
+.shiyong_winlist li p b {
+	color: #ba2020
+}
+
+.zhen_tougao {
+	font-size: 14px;
+	background: #f7f7f7;
+	padding: 20px;
+	line-height: 30px;
+	text-align: center
+}
+
+.zhen_tougao .left {
+	font-size: 16px;
+	color: #666;
+	width: 460px
+}
+
+.zhen_tougao .left span {
+	color: #999;
+	font-size: 14px
+}
+
+.zhen_tougao .right {
+	width: 110px
+}
+
+.zhen_tougao .right a {
+	color: #6599ff
+}
+
+.zhen_tougao .right a.do_tougao {
+	font-size: 14px;
+	background: #ba2020;
+	border-radius: 4px;
+	color: #fff;
+	display: block;
+	height: 30px;
+	width: 100%
+}
+
+.side_info {
+	padding: 0 15px;
+	border: 1px solid #ddd
+}
+
+.side_info>div {
+	font-size: 14px;
+	color: #999;
+	padding: 15px 0;
+	border-bottom: 1px dashed #ddd
+}
+
+.side_info div.si4 {
+	border: 0
+}
+
+.side_info>div h3 {
+	font-size: 16px;
+	color: #666;
+	font-weight: 700
+}
+
+.side_info>div span {
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin: 0 10px 25px 0;
+	background: url(//static.meishichina.com/v6/img/zhen/sidelogo.jpg) no-repeat
+}
+
+.side_info div.si2 span {
+	background-position: 0 -40px
+}
+
+.side_info div.si3 span {
+	background-position: 0 -80px
+}
+
+.side_info div.si4 span {
+	background-position: 0 -120px
+}
+
+#baoming div.line #luckdraw_txt {
+	color: #ba2020;
+	font-weight: 700
+}
+
+#baoming a#luckdraw_de,#baoming a#luckdraw_add {
+	border: 1px solid #d2d2d2;
+	color: #d2d2d2;
+	float: left;
+	font-size: 26px;
+	font-weight: 700;
+	height: 30px;
+	line-height: 100%;
+	text-align: center;
+	text-decoration: none;
+	width: 30px
+}
+
+#baoming a#luckdraw_de:hover,#baoming a#luckdraw_add:hover {
+	background-color: #fcfce3;
+	border: 1px solid #c9c890
+}
+
+#baoming #add_address {
+	width: 50px;
+	color: #fff
+}
+
+.lottery-d-info {
+	font-size: 14px;
+	background: #f7f7f7;
+	padding: 20px
+}
+
+.lottery-d-info span {
+	color: #6599ff
+}
+
+
+
+
+
+.Rw3 {
+	font-size: 14px;
+	padding: 0 0 5px;
+}
+
+.Rw3 li {
+	float: left;
+	margin: 0 0 20px;
+	width: 100%;
+}
+
+.Rw3 .pic {
+	float: left;
+}
+
+.Rw3 div {
+	float: left;
+	padding: 5px 0 0 20px;
+	width: 190px;
+}
+
+.Rw3 div h3 {
+	height: 44px;
+	overflow: hidden;
+}
+
+.Rw3 div p {
+	padding: 10px 0 0;
+}
+
+.Rw3 div p a {
+	color: #fff;
+	display: block;
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: #ba2020;
+}
+
+.Rw3 div p a:hover {
+	background: #d02323;
+}
+
+.cb_list li {
+	width: 100%;
+	float: left;
+	padding: 0 0 20px;
+}
+
+.cb_list .pic {
+	float: left;
+}
+
+.cb_list .detail {
+	float: right;
+	width: 460px;
+	overflow: hidden
+}
+
+.cb_list .substatus {
+	float: left;
+	color: #999
+}
+
+.cb_list .substatus>a {
+	color: #999
+}
+
+.cb_list .substatus h4 {
+	font-size: 20px;
+	line-height: 1.2em
+}
+
+.cb_list .subcontent {
+	clear: both;
+	font-size: 14px;
+	color: #666;
+	padding: 15px 0 0
+}
+
+.La2 {
+	width: 320px;
+}
+
+.La2 a {
+	border: 1px solid #e1e1e1;
+	float: left;
+	font-size: 16px;
+	height: 46px;
+	line-height: 46px;
+	margin: 0 20px 20px 0;
+	text-align: center;
+	text-decoration: none;
+	width: 138px;
+}
+
+.La2 a:hover {
+	border: 1px solid #e3a5a6;
+}
+
+#addtocollect {
+	padding: 20px 20px 0;
+}
+
+#addtocollect div.line {
+	padding: 5px 0
+}
+
+#addtocollect div.line span {
+	color: #5b5b5b;
+	font-size: 12px;
+}
+
+#addtocollect div.line span.gay {
+	color: #ccc;
+}
+
+#addtocollect div.line a {
+	color: #6599ff;
+	font-size: 12px;
+}
+
+#addtocollect select {
+	display: none;
+	font-size: 14px;
+}
+
+#addtocollect textarea {
+	vertical-align: sub;
+	width: 270px;
+	height: 90px;
+	color: #ccc;
+	border: 1px solid #ccc;
+	padding: 5px;
+	line-height: 130%;
+}
+
+#addtocollect textarea.color_5b {
+	color: #5b5b5b;
+}
+
+#find_collect_div {
+	position: relative
+}
+
+#find_collect {
+	width: 150px;
+}
+
+#find_collectlist {
+	position: absolute;
+	background: #fffec6;
+	left: 75px;
+	z-index: 2;
+	display: none;
+	min-width: 150px;
+	max-height: 300px;
+	overflow: auto
+}
+
+#find_collectlist li {
+	display: none;
+	padding: 0 5px;
+	cursor: pointer;
+}
+
+#find_collectlist li:hover {
+	background: #ff5500
+}
+
+ .ui_title_wrap sup {
+	background: #ba2020;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 12px;
+	margin: 0 0 0 5px;
+	padding: 0 5px
+}

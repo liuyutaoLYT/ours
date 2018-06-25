@@ -1,0 +1,18 @@
+textarea{overflow:auto}
+.J_upload{position:relative;display:inline-block;margin:5px 0;padding:0 8px;height:28px;border:1px solid #c9c890;border-radius:3px;background:#fcfce3;color:#333;font-size:14px;line-height:28px;cursor:pointer;vertical-align:middle}
+.J_upload .J_img{text-indent:1%;position:absolute;top:0;left:0;margin:0;padding:0;width:100%;height:100%;border:0;opacity:0;cursor:pointer}
+#cover{clear:both;margin:0}
+#cover div{cursor:move;font-size:0;overflow:hidden;width:170px;height:170px;float:left;margin:10px 20px 10px 0;background:url(//static.meishichina.com/v6/img/event/h_bg.jpg);text-align:center;position:relative}
+#cover div img{box-shadow:none;max-width:100%;max-height:100%;vertical-align:middle;display:inline-block}
+#cover div span{display:inline-block;font-size:0;height:100%;line-height:0;margin-left:-1px\9;overflow:hidden;vertical-align:middle;width:0}
+#cover div a.del{background:rgba(0,0,0,.7);color:#fff;cursor:pointer;font-size:12px;line-height:120%;padding:7px;position:absolute;right:0;top:0;display:none}
+#cover div:hover a.del{display:block}
+.img_status{color:#999;margin:0 0 0 5px;height:22px;line-height:22px;display:inline-block;vertical-align:middle}
+.img_status b{display:inline-block;min-width:15px;text-align:center}
+.img_status b.s1{color:#333}
+.img_status b.s2{color:#6b5}
+.img_status b.s3{color:red}
+.img_status .step_doing{background:url(//static.meishichina.com/v6/img/loading-16-16.gif) no-repeat center left;float:left;height:100%;width:22px}
+.things_type1 span{text-align: center;width: 70px;}
+.mr_edit li.low_tip{display:none;background:#FFFAB5;padding:10px;height:20px;line-height:20px;margin:0 0 10px 0}
+.mr_edit li.low_tip a{color:#ff6767}
