@@ -14,7 +14,146 @@
 <%@page import="com.example.bean.resource"%>
 <%@page import="java.util.ArrayList"%>
     
-<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>     
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>  
+
+	<link rel="stylesheet" type="text/css" href="css/all.css?v1=9">
+	
+
+<link href="${ pageContext.request.contextPath}/css/bootstrap.min.css" rel="stylesheet" />
+
+<link href="${ pageContext.request.contextPath}/css/flexslider1.css" rel="stylesheet" />
+
+<link href="${ pageContext.request.contextPath}/css/style2.css" rel="stylesheet" />
+<style type="text/css">
+.footer-area{padding:10px 0}.footer-area .w{padding-top:10px;border-top:1px solid #e8e8e8}.footer-area a{color:#666}.footer-area a:hover{color:#ff6767}.ft1{clear:none;float:left;font-size:11px;color:#666;width:680px;padding-top:10px}.ft1 .c3b{color:#c90;font-size:14px;font-weight:700;margin-bottom:6px}.ft1 .c3b a{color:#f50}.ft1 .c3c{color:#aaa;font-size:12px;margin-bottom:6px}.ft2,.ft3,.ft4{clear:none;float:right;text-align:center}.ft3{margin:0 25px}
+</style>
+
+
+
+<style>
+.wx{
+  width:80px;
+
+}
+.sj{
+width:80px;
+}
+.img1{
+width:80px;
+}
+.img2{
+width:80px;
+}
+.img3{
+width:80px;
+}
+.img4{
+width:25px;
+}
+.img5{
+width:230px;
+margin-left:90px;
+}
+
+.footer-area {
+    padding: 10px 0;
+}
+.clear1{
+    zoom: 1;
+}
+.clear1:after {
+    clear: both;
+    content: ' ';
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+.ac{
+font-size:13px;
+}
+.pp {
+    margin: 0 0 10px;
+
+    font-size: 13px;
+    /* margin-right: 20px; */
+    /* margin-bottom: 50px; */
+}
+p {
+    margin: 0 0 10px;
+    font-size: 16px;
+}
+.footer-area .w {
+    padding-top: 10px;
+    border-top: 1px solid #e8e8e8;
+    width: 1200px;
+}
+.af{
+ font-size:13px;
+}
+.footer-area {
+    padding: 10px 0;
+   
+}
+.ft4 {
+    clear: none;
+    float: right;
+    text-align: center;
+    margin-right: 120px;
+}
+</style>
+
+  <style>
+  
+  
+header .navbar {
+  	margin-top:15px;
+    }
+  
+  .navbar .nav > li > a {
+    color: #5A5A5A;
+    text-shadow: none;
+    border: 1px solid rgba(255, 255, 255, 0) !important;
+    font-size: 18px ;
+}
+a{
+color:#654e2d;
+}
+  .navbar-default .navbar-brand {
+
+top:-38px;
+    width: 184px;
+}
+
+
+.scrollup {
+    position: fixed;
+    width: 82px;
+    height: 82px;
+    bottom: 0px;
+    right: 20px;
+    z-index: 102410;
+    /* background: #CF6A14; */
+    background: url(//static.meishichina.com/v6/img/wap_a/gotop.png) no-repeat scroll center center/58px 58px;
+}
+.imgl{
+margin-left:40px;
+}
+
+  </style>  
+  <div class="fixed-footer">
+  <a href="#" class="scrollup"></a>
+  </div>
+<script src="${pageContext.request.contextPath}/js/jquery.js"></script>
+<script src="${pageContext.request.contextPath}/js/jquery.easing.1.3.js"></script>
+<script src="${pageContext.request.contextPath}/js/bootstrap.min.js"></script>
+<script src="${pageContext.request.contextPath}/js/jquery.fancybox.pack.js"></script>
+<script src="${pageContext.request.contextPath}/js/jquery.fancybox-media.js"></script> 
+<script src="${pageContext.request.contextPath}/js/portfolio/jquery.quicksand.js"></script>
+<script src="${pageContext.request.contextPath}/js/portfolio/setting.js"></script>
+<script src="${pageContext.request.contextPath}/js/jquery.flexslider.js"></script>
+<script src="${pageContext.request.contextPath}/js/animate.js"></script>
+<script src="${pageContext.request.contextPath}/js/custom.js"></script>   
     
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -127,7 +266,16 @@ background-color:#f5fafe;
 		margin:0;
 	}
 	
-	
+	p {
+    margin: 0 0 10px;
+    font-size: 20px;
+}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: black;
+}
 #frame{ margin:0 auto;width:1024px;height:100%} 
 #frameleft{ float:left; width:800px; height:100%;} 
 #frameright{ margin-left:20px;float:left; width:200px;height:100%;background:#FAFAD2;} 
@@ -141,9 +289,51 @@ a:hover {  color: #000000; text-decoration: none}
 </head>
 
 <body>   
-    <div id="title">   
-        <h1>主页</h1>   
-    </div>   
+    
+    
+    
+    
+<div class="wrap-body">
+	
+  <div id="wrapper" class="home-page">
+	<!-- start header -->
+	<header>
+        <div class="navbar navbar-default navbar-static-top" margin-top="20px" >
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-Bistro=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="" href="${ pageContext.request.contextPath}/index"><img class="imgl" src="${pageContext.request.contextPath}/images/lo.png" alt="logo"/></a>
+                </div>
+                <div class="navbar-collapse collapse ">
+                    <ul class="nav navbar-nav">
+                     <li class="active"><a  href="#">主页</a></li> 
+						<li><a href="#">菜谱</a></li>
+						<li><a href="#">周边</a></li>
+                        <li><a href="#">甄选</a></li>
+                        <li><a href="#">健康</a></li>
+                        <li><a href="#">专题</a></li>
+                        <li><a href="#">社区</a></li>
+                        <li><a href="#">话题</a></li>
+                       
+                </ul>
+                </div>
+            </div>
+        </div>
+	</header>
+	<!-- end header -->
+
+	
+		<section id="banner">
+
+	</section>
+	
+	
+</div>
+	 
 
 	<%
 		String userId = null;
@@ -157,7 +347,7 @@ a:hover {  color: #000000; text-decoration: none}
 			userName = u.getUser_name();
 		}
 	%>
-	<p>当前用户：<%=userName %></p>
+	<p >当前用户：<%=userName %></p>
 	
 	
 	
@@ -392,6 +582,10 @@ a:hover {  color: #000000; text-decoration: none}
 	%>
 	</ul>
 </div> 
+
+
+
+
 </div> 
 
 
@@ -399,9 +593,23 @@ a:hover {  color: #000000; text-decoration: none}
 
 <br/>
 
+
 <div id="pageControl" style="text-align: center; position:fixed;bottom:0;left:50%">
 				<h5><a href="index.jsp">退出登录</a></h5>
 </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 
 </html>

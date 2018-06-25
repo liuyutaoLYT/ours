@@ -66,7 +66,7 @@ h3.heading-style-3 {
    
    <div>
         <section class="sub-header shop-layout-1">
-        <img class="rellax bg-overlay" src="images/logo4.jpg" alt="">
+        <img class="rellax bg-overlay" src="images/logo6.jpg" alt="">
         <div class="overlay-call-to-action"></div>
         <h3><img  class="img0" src="images/lo.png"></h3>
        
@@ -77,7 +77,7 @@ h3.heading-style-3 {
          
           <div class="login-wrapper">
             <div class="row">
-              <center><h3 class="heading-style-3" color:"red">我的账户</h3>
+              <center><h3 class="heading-style-3" color:"red">为您推荐</h3>
               </center>
               <div><s:actionerror /></div>
               <center><form action="user" method="get" ccept-charset="utf-8">   
