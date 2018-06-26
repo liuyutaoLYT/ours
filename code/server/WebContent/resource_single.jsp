@@ -9,7 +9,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>电影打分</title>
+<title>美食评分</title>
 
 
 <style type="text/css">
@@ -86,11 +86,11 @@ input {
 %>
 	<center>
 		<form id="update"  action="resource_single.jsp"  accept-charset="utf-8" method="post" > 
-			<h3>电影打分</h3>
+			<h3>美食评分</h3>
 			
 			<img src="<%=r.getUrl()%>" style="width:220px;height:280px;margin-bottom:10px"><br>
 			
-			电影描述：&nbsp;&nbsp;&nbsp;&nbsp;<br>
+			店家描述：&nbsp;&nbsp;&nbsp;&nbsp;<br>
 			<textarea class="input" readonly="readonly" name="description" style="width:300px;margin-bottom:10px"><%=r.getDescription()%></textarea><br>
 	
 			

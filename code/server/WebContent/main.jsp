@@ -353,28 +353,22 @@ a:hover {  color: #000000; text-decoration: none}
 	
     <div id="bar"> 
 		<ul>
-			<li><a href="main.jsp?type=推荐">推荐电影</a></li>
+			<li><a href="main.jsp?type=推荐">推荐美食</a></li>
 			<li><a href="main.jsp">所有类型</a></li>
-			<li><a href="main.jsp?c=类型&type=爱情">爱情</a></li>
-			<li><a href="main.jsp?c=类型&type=喜剧">喜剧</a></li>
-			<li><a href="main.jsp?c=类型&type=剧情">剧情</a></li>
-			<li><a href="main.jsp?c=类型&type=动画">动画</a></li>
-			<li><a href="main.jsp?c=类型&type=科幻">科幻</a></li>
-			<li><a href="main.jsp?c=类型&type=动作">动作</a></li>
-			<li><a href="main.jsp?c=类型&type=经典">经典</a></li>
-			<li><a href="main.jsp?c=类型&type=悬疑">悬疑</a></li>
-			<li><a href="main.jsp?c=类型&type=青春">青春</a></li>
-			<li><a href="main.jsp?c=类型&type=犯罪">犯罪</a></li>
-			<li><a href="main.jsp?c=类型&type=惊悚">惊悚</a></li>
-			<li><a href="main.jsp?c=类型&type=文艺">文艺</a></li>
-			<li><a href="main.jsp?c=类型&type=搞笑">搞笑</a></li>
-			<li><a href="main.jsp?c=类型&type=纪录片">纪录片</a></li>
-			<li><a href="main.jsp?c=类型&type=励志">励志</a></li>
-			<li><a href="main.jsp?c=类型&type=恐怖">恐怖</a></li>
-			<li><a href="main.jsp?c=类型&type=战争">战争</a></li>
-			<li><a href="main.jsp?c=类型&type=短片">短片</a></li>
-			<li><a href="main.jsp?c=类型&type=黑色幽默">黑色幽默</a></li>
-			<li><a href="main.jsp?c=类型&type=魔幻">魔幻</a></li>
+			<li><a href="main.jsp?c=类型&type=爱情">蛋糕甜点</a></li>
+			<li><a href="main.jsp?c=类型&type=喜剧">火锅</a></li>
+			<li><a href="main.jsp?c=类型&type=剧情">自助餐</a></li>
+			<li><a href="main.jsp?c=类型&type=动画">日韩料理</a></li>
+			<li><a href="main.jsp?c=类型&type=科幻">烧烤烤肉</a></li>
+			
+			<li><a href="main.jsp?c=类型&type=动作">江浙菜</a></li>
+			<li><a href="main.jsp?c=类型&type=经典">粤菜</a></li>
+			<li><a href="main.jsp?c=类型&type=悬疑">西北菜</a></li>
+			<li><a href="main.jsp?c=类型&type=青春">京菜</a></li>
+			<li><a href="main.jsp?c=类型&type=犯罪">鲁菜</a></li>
+			<li><a href="main.jsp?c=类型&type=惊悚">东南亚菜</a></li>
+			<li><a href="main.jsp?c=类型&type=文艺">素食</a></li>
+			
 		</ul>
 		 </div>
 		 
@@ -406,21 +400,14 @@ a:hover {  color: #000000; text-decoration: none}
 		<ul>
 			<li></li>
 			<li><a href="main.jsp">所有地区</a></li>
-			<li><a href="main.jsp?c=地区&type=美国">美国</a></li><!-- 大陆 -->
-			<li><a href="main.jsp?c=地区&type=日本">日本</a></li><!-- 港台 -->
-			<li><a href="main.jsp?c=地区&type=香港">香港</a></li><!-- 日韩 -->
-			<li><a href="main.jsp?c=地区&type=英国">英国</a></li><!-- 欧美 -->
-			<li><a href="main.jsp?c=地区&type=中国">中国</a></li>
-			<li><a href="main.jsp?c=地区&type=韩国">韩国</a></li>
-			<li><a href="main.jsp?c=地区&type=法国">法国</a></li>
-			<li><a href="main.jsp?c=地区&type=台湾">台湾</a></li>
-			<li><a href="main.jsp?c=地区&type=中国大陆">中国大陆</a></li>
-			<li><a href="main.jsp?c=地区&type=德国">德国</a></li>
-			<li><a href="main.jsp?c=地区&type=意大利">意大利</a></li>
-			<li><a href="main.jsp?c=地区&type=印度">印度</a></li>
-			<li><a href="main.jsp?c=地区&type=泰国">泰国</a></li>
-			<li><a href="main.jsp?c=地区&type=西班牙">西班牙</a></li>
-			<li><a href="main.jsp?c=地区&type=加拿大">加拿大</a></li>
+			<li><a href="main.jsp?c=地区&type=美国">龙华区</a></li><!-- 大陆 -->
+			<li><a href="main.jsp?c=地区&type=日本">宝安区</a></li><!-- 港台 -->
+			<li><a href="main.jsp?c=地区&type=香港">罗湖区</a></li><!-- 日韩 -->
+			<li><a href="main.jsp?c=地区&type=英国">南山区</a></li><!-- 欧美 -->
+			<li><a href="main.jsp?c=地区&type=中国">平山区</a></li>
+			<li><a href="main.jsp?c=地区&type=韩国">福田区</a></li>
+			<li><a href="main.jsp?c=地区&type=法国">龙岗区</a></li>
+			
 		</ul>
     </div>
     
